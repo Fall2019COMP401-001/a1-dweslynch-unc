@@ -9,6 +9,8 @@ public class A1Jedi {
 		Scanner scan = new Scanner(System.in);
 
 		// Your code follows here.
-		
+		Storefront store = Storefront.buildStore(scan); // Create a new store based on user input
+
+		store.printInfoForAllItems();
 	}
 }

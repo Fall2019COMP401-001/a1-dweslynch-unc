@@ -34,6 +34,19 @@ public class AdeptCustomer implements Comparable<AdeptCustomer>
         }
     }
 
+    // Takes an item name and tells us how many we bought
+    public int quantityPurchased(String item)
+    {
+        if (purchases.containsKey(item)) // We've purchased at least one
+        {
+            return purchases.get(item);
+        }
+        else // We haven't purchased any of these
+        {
+            return 0;
+        }
+    }
+
     // Accessors
     public String getFirstName()
     {
