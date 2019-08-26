@@ -21,7 +21,7 @@ public class A1Novice {
 			Customer _customer = new Customer(firstName, lastName);
 
 			int xItems = scan.nextInt(); // How many items are we purchasing?
-			for (int _i = 0; _i < xItems; i++)
+			for (int _i = 0; _i < xItems; _i++)
 			{
 				int quantity = scan.nextInt();
 				String itemName = scan.next();
