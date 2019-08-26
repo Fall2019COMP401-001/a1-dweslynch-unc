@@ -36,7 +36,8 @@ public class A1Novice {
 		for (Customer customer : customers)
 		{
 			String firstInitial = customer.getFirstName().substring(0, 1);
-			System.out.println(firstInitial + ". " + customer.getLastName() + ": " + customer.getPurchaseTotal());
+			String sTotal = String.format("%.2f", customer.getPurchaseTotal());
+			System.out.println(firstInitial + ". " + customer.getLastName() + ": " + sTotal);
 		}
 	}
 }
