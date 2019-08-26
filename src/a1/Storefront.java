@@ -47,11 +47,11 @@ public class Storefront
         int xCustomers = xCustomersWhoPurchased(item);
         if (xCustomers > 0) // Somebody bought the item
         {
-            System.out.println(xCustomers + " customers purchased " + quantityPurchased(item) + " " + item);
+            System.out.println(xCustomers + " customers bought " + quantityPurchased(item) + " " + item);
         }
         else // Nobody bought it
         {
-            System.out.println("No customers purchased " + item);
+            System.out.println("No customers bought " + item);
         }
     }
 
